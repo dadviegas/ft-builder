@@ -1,15 +1,15 @@
 {
   "name": "asgard-react-bundle",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "dadviegas",
   "license": "MIT",
   "scripts": {
     "build": "webpack"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0",
-    "@babel/preset-react": "^7.0.0"
+    "styled-components": "^4.2.0"
   }
 }

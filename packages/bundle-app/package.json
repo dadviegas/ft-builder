@@ -1,6 +1,6 @@
 {
   "name": "asgard-bundle-app",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -12,7 +12,7 @@
     "build": "babel src --out-dir lib"
   },
   "dependencies": {
-    "asgard-babel-conf": "^1.0.9",
+    "asgard-babel-conf": "^1.0.10",
     "autoprefixer": "^9.4.2",
     "chalk": "^2.4.1",
     "clean-webpack-plugin": "^1.0.0",
