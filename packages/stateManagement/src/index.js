@@ -9,7 +9,7 @@ import { connectRouter, routerMiddleware } from 'connected-react-router'
 
 const flatten = (arr = []) => arr.reduce((flat, toFlatten) => flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten), []);
 
-const composeEnhancers = composeWithDevTools();
+const composeEnhancers = composeWithDevTools;
 
 const storeInit = (elements = []) => {
   const storeOptions = {
