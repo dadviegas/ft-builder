@@ -1,6 +1,6 @@
 {
   "name": "asgard-ft-builder",
-  "version": "1.0.19",
+  "version": "1.0.22",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "clean": "lerna run clean",
     "lint": "lerna run lint",
     "test": "lerna run test",
-    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
+    "update-version": "lerna publish --skip-git --skip-npm --force-publish 'packages/*'",
     "check-packages": "yarn clean && yarn compile && yarn test && yarn lint",
-    "publish": "npm run compile && lerna publish --force-publish"
+    "1publish": "npm run compile && lerna publish --force-publish"
   },
   "repository": {
     "type": "git",
