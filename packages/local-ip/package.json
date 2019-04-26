@@ -1,0 +1,16 @@
+{
+  "name": "@asgard/local-ip",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "author": "dadviegas",
+  "license": "MIT",
+  "scripts": {
+    "compile": "yarn build",
+    "build": "babel src --out-dir lib",
+    "postinstall": "yarn build"
+  },
+  "dependencies": {
+    "@asgard/babel-conf": "0.0.1"
+  },
+  "private": true
+}

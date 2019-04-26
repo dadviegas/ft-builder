@@ -1,0 +1,17 @@
+{
+  "name": "@asgard/react-bundle",
+  "version": "0.0.1",
+  "author": "dadviegas",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0"
+  }
+}

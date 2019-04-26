@@ -1,0 +1,19 @@
+default:
+  isLogServerActive: false
+  appId: 'dev_app_id'
+
+development:
+  # Log Server to catch fetch and console calls
+  isLogServerActive: true
+  logServer: LOG_SERVER_IP:LOG_SERVER_PORT
+  appId: 'dev_app_id'
+
+test:
+  appId: 'test_app_id'
+
+production:
+  appId: 'prod_app_id'
+
+custom:
+  playground: true
+  appId: 'custom_app_id'

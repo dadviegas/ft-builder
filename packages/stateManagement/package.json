@@ -1,0 +1,22 @@
+{
+  "name": "@asgard/state-management",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "author": "dadviegas",
+  "license": "MIT",
+  "dependencies": {
+    "@asgard/redux-helpers": "0.0.1",
+    "@asgard/babel-conf": "0.0.1",
+    "connected-react-router": "^5.0.0",
+    "history": "^4.7.2",
+    "react-router": "^4.3.1",
+    "reselect": "^3.0.1"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "compile": "yarn build",
+    "build": "babel src --out-dir lib",
+    "postinstall": "yarn build"
+  },
+  "private": true
+}
