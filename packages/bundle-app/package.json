@@ -1,6 +1,6 @@
 {
   "name": "asgard-bundle-app",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "lib/index.js",
   "files": [
     "lib"
