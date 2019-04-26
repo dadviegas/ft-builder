@@ -1,6 +1,6 @@
 {
   "name": "asgard-redux-helpers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "dadviegas",
   "license": "MIT",
   "main": "lib/index.js",
