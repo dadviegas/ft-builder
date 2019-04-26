@@ -9,8 +9,7 @@
   "license": "MIT",
   "scripts": {
     "compile": "yarn build",
-    "build": "babel src --out-dir lib",
-    "postinstall": "yarn build"
+    "build": "babel src --out-dir lib"
   },
   "dependencies": {
     "asgard-babel-conf": "0.0.1",

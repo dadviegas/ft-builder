@@ -10,8 +10,7 @@
   "scripts": {
     "compile": "yarn build",
     "build": "babel src --out-dir lib",
-    "start": "babel-node ./example",
-    "postinstall": "yarn build"
+    "start": "babel-node ./example"
   },
   "dependencies": {
     "asgard-babel-conf": "0.0.1",

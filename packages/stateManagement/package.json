@@ -18,7 +18,6 @@
   "sideEffects": false,
   "scripts": {
     "compile": "yarn build",
-    "build": "babel src --out-dir lib",
-    "postinstall": "yarn build"
+    "build": "babel src --out-dir lib"
   }
 }
