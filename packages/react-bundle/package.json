@@ -9,9 +9,7 @@
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "styled-components": "^4.2.0"
-  },
-  "devDependencies": {
+    "styled-components": "^4.2.0",
     "@babel/preset-react": "^7.0.0"
   }
 }
