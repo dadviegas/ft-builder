@@ -8,7 +8,7 @@
     "lib"
   ],
   "dependencies": {
-    "asgard-babel-conf": "0.0.1",
+    "asgard-babel-conf": "1.0.8",
     "is-plain-object": "^2.0.4",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",

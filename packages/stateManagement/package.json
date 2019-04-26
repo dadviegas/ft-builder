@@ -8,8 +8,8 @@
   "author": "dadviegas",
   "license": "MIT",
   "dependencies": {
-    "asgard-babel-conf": "0.0.1",
-    "asgard-redux-helpers": "0.0.1",
+    "asgard-babel-conf": "1.0.8",
+    "asgard-redux-helpers": "1.0.8",
     "connected-react-router": "^5.0.0",
     "history": "^4.7.2",
     "react-router": "^4.3.1",

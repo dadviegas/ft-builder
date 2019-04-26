@@ -12,6 +12,6 @@
     "build": "babel src --out-dir lib"
   },
   "dependencies": {
-    "asgard-babel-conf": "0.0.1"
+    "asgard-babel-conf": "1.0.8"
   }
 }

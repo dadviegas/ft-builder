@@ -12,7 +12,7 @@
     "build": "babel src --out-dir lib"
   },
   "dependencies": {
-    "asgard-babel-conf": "0.0.1",
+    "asgard-babel-conf": "1.0.8",
     "autoprefixer": "^9.4.2",
     "chalk": "^2.4.1",
     "clean-webpack-plugin": "^1.0.0",

@@ -13,7 +13,7 @@
     "start": "babel-node ./example"
   },
   "dependencies": {
-    "asgard-babel-conf": "0.0.1",
+    "asgard-babel-conf": "1.0.8",
     "deepmerge": "^2.2.1",
     "js-yaml": "^3.12.0"
   }
