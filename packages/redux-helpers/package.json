@@ -1,6 +1,6 @@
 {
   "name": "asgard-redux-helpers",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "author": "dadviegas",
   "license": "MIT",
   "main": "lib/index.js",
@@ -8,7 +8,7 @@
     "lib"
   ],
   "dependencies": {
-    "asgard-babel-conf": "1.0.8",
+    "asgard-babel-conf": "^1.0.9",
     "is-plain-object": "^2.0.4",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
