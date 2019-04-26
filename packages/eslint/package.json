@@ -1,6 +1,6 @@
 {
   "name": "asgard-es-lint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "author": "dadviegas",
   "license": "MIT",

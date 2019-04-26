@@ -1,6 +1,6 @@
 {
   "name": "asgard-state-management",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -8,8 +8,8 @@
   "author": "dadviegas",
   "license": "MIT",
   "dependencies": {
-    "asgard-redux-helpers": "0.0.1",
     "asgard-babel-conf": "0.0.1",
+    "asgard-redux-helpers": "0.0.1",
     "connected-react-router": "^5.0.0",
     "history": "^4.7.2",
     "react-router": "^4.3.1",
