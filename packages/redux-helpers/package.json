@@ -1,11 +1,14 @@
 {
-  "name": "@asgard/redux-helpers",
-  "version": "0.0.1",
+  "name": "asgard-redux-helpers",
+  "version": "1.0.3",
   "author": "dadviegas",
   "license": "MIT",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
-    "@asgard/babel-conf": "0.0.1",
+    "asgard-babel-conf": "0.0.1",
     "is-plain-object": "^2.0.4",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
@@ -13,7 +16,6 @@
     "redux-saga": "^0.16.0",
     "reselect": "^3.0.1"
   },
-  "private": true,
   "scripts": {
     "compile": "yarn build",
     "build": "babel src --out-dir lib",

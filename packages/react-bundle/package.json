@@ -1,6 +1,6 @@
 {
-  "name": "@asgard/react-bundle",
-  "version": "0.0.1",
+  "name": "asgard-react-bundle",
+  "version": "1.0.3",
   "author": "dadviegas",
   "license": "MIT",
   "scripts": {

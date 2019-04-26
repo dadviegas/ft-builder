@@ -1,7 +1,10 @@
 {
-  "name": "@asgard/local-ip",
-  "version": "0.0.1",
-  "main": "./lib/index.js",
+  "name": "asgard-local-ip",
+  "version": "1.0.3",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "author": "dadviegas",
   "license": "MIT",
   "scripts": {
@@ -10,7 +13,6 @@
     "postinstall": "yarn build"
   },
   "dependencies": {
-    "@asgard/babel-conf": "0.0.1"
-  },
-  "private": true
+    "asgard-babel-conf": "0.0.1"
+  }
 }
