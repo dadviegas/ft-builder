@@ -19,6 +19,7 @@ const convertKey = (str) => snakeCase(str).toUpperCase();
 const convertKeys = (obj) => {
   const defineVariables = {};
   const variables = {};
+
   Object.keys(obj).forEach((key) => {
     const value = obj[key];
     if (typeof value === 'string' || value instanceof String) {
