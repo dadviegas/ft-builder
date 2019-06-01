@@ -5,13 +5,19 @@
   "files": [
     "lib"
   ],
-  "author": "dadviegas",
-  "license": "MIT",
   "scripts": {
     "compile": "yarn build",
     "build": "babel src --out-dir lib"
   },
   "dependencies": {
     "asgard-babel-conf": "^1.0.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dadviegas/ft-builder.git"
+  },
+  "author": "dadviegas",
+  "bugs": {
+    "url": "https://github.com/dadviegas/ft-builder/issues"
   }
 }
