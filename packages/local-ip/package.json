@@ -1,6 +1,6 @@
 {
   "name": "asgard-local-ip",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "main": "lib/index.js",
   "files": [
     "lib"
@@ -12,6 +12,6 @@
     "build": "babel src --out-dir lib"
   },
   "dependencies": {
-    "asgard-babel-conf": "^1.0.12"
+    "asgard-babel-conf": "^1.0.13"
   }
 }

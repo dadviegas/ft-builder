@@ -1,6 +1,6 @@
 {
   "name": "asgard-yaml-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": "dadviegas",
   "license": "MIT",
   "main": "lib/index.js",
@@ -13,7 +13,7 @@
     "start": "babel-node ./example"
   },
   "dependencies": {
-    "asgard-babel-conf": "^1.0.12",
+    "asgard-babel-conf": "^1.0.13",
     "deepmerge": "^2.2.1",
     "js-yaml": "^3.12.0"
   }
