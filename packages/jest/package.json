@@ -1,0 +1,11 @@
+{
+  "name": "asgard-jest",
+  "version": "1.0.13",
+  "main": "./lib/index.js",
+  "author": "dadviegas",
+  "license": "MIT",
+  "scripts": {},
+  "dependencies": {
+    "jest": "^24.8.0"
+  }
+}

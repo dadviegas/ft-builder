@@ -1,8 +1,8 @@
-function isFunction(obj) {
+export function isFunction(obj) {
   return obj instanceof Function;
 }
 
-function isArray(obj) {
+export function isArray(obj) {
   return Array.isArray(obj);
 }
 
