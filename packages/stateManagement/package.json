@@ -10,10 +10,11 @@
   "dependencies": {
     "asgard-babel-conf": "^1.0.11",
     "asgard-redux-helpers": "^1.0.11",
-    "connected-react-router": "^5.0.0",
-    "history": "^4.7.2",
-    "react-router": "^4.3.1",
-    "reselect": "^3.0.1"
+    "connected-react-router": "^6.4.0",
+    "history": "^4.9.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reselect": "^4.0.0"
   },
   "sideEffects": false,
   "scripts": {

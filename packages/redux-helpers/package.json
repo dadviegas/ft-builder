@@ -10,11 +10,11 @@
   "dependencies": {
     "asgard-babel-conf": "^1.0.11",
     "is-plain-object": "^2.0.4",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-devtools-extension": "^2.13.5",
-    "redux-saga": "^0.16.0",
-    "reselect": "^3.0.1"
+    "react-redux": "7.0.2",
+    "redux": "4.0.1",
+    "redux-devtools-extension": "2.13.8",
+    "redux-saga": "1.0.2",
+    "reselect": "4.0.0"
   },
   "scripts": {
     "compile": "yarn build",

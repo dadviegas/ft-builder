@@ -27,7 +27,8 @@
     "lerna": "^3.13.4"
   },
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "frontend"
   ],
   "private": true
 }

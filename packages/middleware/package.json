@@ -1,0 +1,17 @@
+{
+  "name": "asgard-middleware",
+  "version": "1.0.11",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "author": "dadviegas",
+  "license": "MIT",
+  "scripts": {
+    "compile": "yarn build",
+    "build": "babel src --out-dir lib"
+  },
+  "dependencies": {
+    "asgard-babel-conf": "^1.0.11"
+  }
+}

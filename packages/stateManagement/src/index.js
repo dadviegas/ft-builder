@@ -6,10 +6,13 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import reduxSaga from 'redux-saga';
 import { all, fork } from 'redux-saga/effects';
 import { connectRouter, routerMiddleware } from 'connected-react-router'
+import { createHashHistory } from 'history'
 
 const flatten = (arr = []) => arr.reduce((flat, toFlatten) => flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten), []);
 
 const composeEnhancers = composeWithDevTools;
+
+const history = createHashHistory(history);
 
 const storeInit = (elements = []) => {
   const storeOptions = {
@@ -40,9 +43,11 @@ export default (elements) => {
   });
 
   const store = createStore(
-    combineReducers(
-      reducers
-    ),
+    combineReducers({
+        router: connectRouter(history),
+        ...reducers
+    }),
+
     composeEnhancers(
       applyMiddleware(...middlewares, sagaMiddleware)
     )
@@ -56,6 +61,6 @@ export default (elements) => {
     }
   });
 
-  return store;
+  return { store, history };
 };
 
