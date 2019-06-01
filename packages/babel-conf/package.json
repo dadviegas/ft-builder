@@ -1,6 +1,6 @@
 {
   "name": "asgard-babel-conf",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "main": "./lib/index.js",
   "author": "dadviegas",
   "license": "MIT",
