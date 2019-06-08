@@ -16,7 +16,7 @@ const cssConf = (env) => ({
   resolve: { extensions: [".scss", ".css"] },
   use: [
     env.environment === 'production' ? MiniCssExtractPlugin.loader : "style-loader",
-    'thread-loader',
+    // 'thread-loader',
     { loader: 'css-loader', options: { sourceMap: true, importLoaders: 1, module: true } },
     { loader: 'postcss-loader', query: { config: { path: 'postcss.config.js' } }},
     { loader: 'sass-loader', options: { sourceMap: true } },
